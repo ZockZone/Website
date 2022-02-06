@@ -1,0 +1,56 @@
+/**
+ * @Author: Felix Schmitt
+ * @Date:   2022-01-06T15:06:27+01:00
+ * @Email:  felix.schmitt@edingmc.com
+ * @Filename: main.css
+ * @Last modified by:   Felix Schmitt
+ * @Last modified time: 2022-01-08T13:54:10+01:00
+ * @Copyright: Copyright 2022 © TheEdingMCGroup
+ */
+a {
+  color: #3763FD;
+}
+a:hover {
+  color: #FCFF27;
+}
+
+/* Sections */
+::-moz-selection {
+    background: #111;
+    color: #fff;
+}
+::selection {
+    background: #111;
+    color: #fff;
+}
+
+
+ /* Navbar */
+.navbar-fixed {
+    left: 50px; /* just an estimate of your sidebar's width */
+    right: 50px;
+    width: calc(100% - 100px);
+}
+
+.rounded-nav {
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+
+/*Ligh/Dark Switcher*/
+#lightSwitch {
+     transform: scale(1.8);
+   }
+
+
+
+/* @media */
+@media (max-width: 480px) {
+    /* Navbar */
+    .navbar-fixed {
+        left: 0px; /* just an estimate of your sidebar's width */
+        right: 0px;
+        width: calc(100% - 0px);
+    }
+}
